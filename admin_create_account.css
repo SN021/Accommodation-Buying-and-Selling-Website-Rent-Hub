@@ -1,0 +1,189 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ece0f6;
+}
+
+header {
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: black;
+    font-size: 25px;
+    margin-left: -500px;
+}
+
+.logo {
+    width: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    text-align: center;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropbtn {
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn::after {
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 8px solid black;
+    /* Triangular arrow */
+    margin-left: 5px;
+}
+
+main {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #000;
+}
+
+.logout {
+    color: #e00;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f3f1;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label {
+    width: 120px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    /* Adjust as needed */
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 10px;
+    /* Spacing between buttons */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"] {
+    background-color: #ccc;
+    /* Gray for reset button */
+    color: black;
+}
+
+/* Add space between rows */
+form label,
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form button {
+    margin-bottom: 15px;
+    /* Adjust as needed */
+}
+
+.container{
+    margin-top: 15px;
+    border-radius: 25px;
+  
+}
+

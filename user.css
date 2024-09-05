@@ -1,0 +1,191 @@
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    /* Light gray background */
+}
+
+.container {
+
+    padding: 20px;
+    border-radius: 10px;
+    width: 1500px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+    
+}
+
+h1 {
+    color: #164a41;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #164a41;
+}
+
+td form {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    margin-right: 10px;
+}
+
+button[name="accept"] {
+    margin-left: 25px;
+    background-color: #20bf6b;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[name="accept"]:hover {
+    background-color: #2ac97d;
+}
+
+button[name="reject"] {
+    margin-left: 25px;
+    background-color: #eb3107;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[name="reject"]:hover {
+    background-color: #d32a0d;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #f6fffa;
+    /* Green background */
+    color: #000000;
+    /* Black text color */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #086211;
+    /* Green color on hover */
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    background-color: #e7f2eb;
+    /* Green background */
+    min-width: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    list-style: none;
+    /* Remove dots */
+}
+
+.dropdown-content li {
+    margin: 10px 0;
+}
+
+.dropdown-content li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+
+/* CSS for article container */
+.article-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* CSS for individual articles */
+.article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.article h3 {
+    margin-top: 0;
+}
+
+.article p {
+    margin-bottom: 0;
+}
